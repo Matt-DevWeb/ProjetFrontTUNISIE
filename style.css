@@ -1,0 +1,155 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+header {
+    background-image: url(./images/background-img.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    position: absolute;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 20px;
+    border: 1px transparent #fff;
+    border-radius: 5px;
+    top: 10px;
+    left: 10px;
+}
+.logo span {
+    color: rgb(238, 56, 11);
+    font-weight: bold;
+    font-size: 2em;
+}
+nav {
+    float: right;
+    margin-right: 20px;
+}
+nav ul {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+nav ul li.active a {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+.titre {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.titre h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+.button a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+.cartes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.carte1,
+.carte2,
+.carte3 {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(30% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.carte1:hover,
+.carte2:hover,
+.carte3:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.img1 img,
+.img2 img,
+.img3 img {
+    width: 100%;
+    height: 270px;
+    border-radius: 5px;
+}
+.box1,
+.box2,
+.box3 {
+    text-align: center;
+}
+.decouvrir1,
+.decouvrir2,
+.decouvrir3 {
+    background-color: rgb(238, 56, 11);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.decouvrir1:hover,
+.decouvrir2:hover,
+.decouvrir3:hover {
+    background-color: rgb(32, 166, 227);
+    color: white;
+    border: none;
+}
+.desc1,
+.desc2,
+.desc3 {
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.titre1,
+.titre2,
+.titre3 {
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+}
